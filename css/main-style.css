@@ -1,0 +1,109 @@
+.cinza{
+  background-color: #606A70 ;
+}
+.azul-forte{
+  background-color: #1A3873 ;
+}
+.azul-bebe{
+  background-color: #00B3F0 ;
+}
+.azul-marinho{
+  background-color: #009DBB ;
+}
+.roxo-claro{
+  background-color: #7566A2 ;
+}
+.roxo-bigbig{
+  background-color: #6C3F87 ;
+}
+.roxo-flor{
+  background-color: #823582 ;
+}
+.roxao{
+  background-color: #7D2571 ;
+}
+.rosa{
+  background-color: #F05C84 ;
+}
+.fuxia{
+  background-color: #ED1F61 ;
+}
+.branco{
+  background-color: white;
+}
+.char-cinza{
+  color: #606A70 ;
+}
+.char-azul-forte{
+  color: #1A3873 ;
+}
+.char-azul-bebe{
+  color: #00B3F0 ;
+}
+.char-azul-marinho{
+  color: #009DBB ;
+}
+.char-roxo-claro{
+  color: #7566A2 ;
+}
+.char-roxo-bigbig{
+  color: #6C3F87 ;
+}
+.char-roxo-flor{
+  color: #823582 ;
+}
+.char-roxao{
+  color: #7D2571 ;
+}
+.char-rosa{
+  color: #F05C84 ;
+}
+.char-fuxia{
+  color: #ED1F61 ;
+}
+.char-branco{
+  color: white;
+}
+.cinza-texto{
+  color:#333;
+}
+
+nav{
+  font-family: Agency FB;
+  font-size: 22pt !important;
+  padding: 0px !important;
+}
+body{
+  font-family: Agency FB;
+}
+hr{
+  border: 1px solid white;
+  background-color: white;
+}
+.opposite{
+  background-color:#333 !important;
+  border:1px solid #333 !important;
+}
+.navbar-brand{
+  padding: 10px !important;
+}
+.nav-link{
+  color: white !important;
+}
+.nav-item{
+  padding: 15px;
+}
+.nav-item:hover{
+  background-color: #009DBB !important;
+}
+.separacoes{
+  padding: 20px;
+  text-align: center;
+}
+.aleo{
+  font-family: Aleo !important;
+}
+
+#vantagens p{
+  font-size:1rem;
+}

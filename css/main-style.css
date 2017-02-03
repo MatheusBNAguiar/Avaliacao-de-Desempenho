@@ -1,3 +1,6 @@
+.preto{
+  background-color: black;
+}
 .cinza{
   background-color: #606A70 ;
 }
@@ -30,6 +33,9 @@
 }
 .branco{
   background-color: white;
+}
+.back-cinza{
+  background-color: #f9f9f9 ;
 }
 .char-cinza{
   color: #606A70 ;
@@ -98,12 +104,60 @@ hr{
 }
 .separacoes{
   padding: 20px;
-  text-align: center;
+  padding-top: 30px;
+  text-align: justify;
+}
+.agency{
+  font-family: Agency FB !important;
 }
 .aleo{
   font-family: Aleo !important;
 }
+.roboto{
+  font-family: 'Roboto',sans-serif;
+}
+.text-center{
+  text-align: center;
+  font-family: Agency FB;
+}
+h1{
+
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align:center;
+}
+
+p{
+  font-size:17px !important;
+}
 
 #vantagens p{
   font-size:1rem;
+}
+i{
+  text-align:center !important;
+}
+
+.destaque-palavras{
+  font-weight: bold;
+  color: #1A3873;
+
+}
+.stair-icon {
+  width: 15vw;
+  height: 15vw;
+  display: inline-block;
+}
+.fa-5x{
+
+  text-align: center !important;
+  font-size:10rem !important;
+}
+.box{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.5);
 }

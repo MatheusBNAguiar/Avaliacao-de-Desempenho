@@ -24,7 +24,7 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('./src/js'));
 });
 gulp.task('css', function() {
-    return gulp.src('./src/css/*.css')
+    return gulp.src('./dev/css/*.css')
         .pipe(concat('style.css'))
         .pipe(gulp.dest('./src/css'));
 });
@@ -46,13 +46,13 @@ gulp.task('sass', function() {
   .on("error", notify.onError(function (error) {
     return "Error: " + error.message;
   }))
-  .pipe(gulp.dest('./src/css/'));
+  .pipe(gulp.dest('./dev/css/'));
 });
 
 
 gulp.task('watch', function() {
   gulp.watch(config.sassPath + '/main-style.scss', ['sass']);
-  gulp.watch('./src/css/*.css', ['css']);
+  gulp.watch('./dev/css/*', ['css']);
   gulp.watch('./dev/img/*', ['convertImage']);
   gulp.watch('./dev/js/*.js', ['scripts']);
 });

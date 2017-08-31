@@ -180,3 +180,33 @@ li {
   text-align: justify;
   font-family: 'Roboto';
   background-color: #f9f9f9; }
+
+.banner {
+  position: relative;
+  display: block;
+  width: 100%;
+  border-top: 105px solid #1A3873;
+  border-top: 105px solid white;
+  height: 650px; }
+.banner img {
+  position: absolute !important;
+  top: 170px;
+  left: auto;
+  right: auto; }
+@media screen and (min-width: 950px) {
+  .banner img {
+    left: 15%; } }
+
+@media screen and (max-width: 700px) {
+  .banner {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-top: 105px solid #1A3873;
+    border-top: 105px solid white;
+    height: 500px; }
+  .banner img {
+    position: absolute !important;
+    top: 60%;
+    left: auto;
+    right: auto; } }
